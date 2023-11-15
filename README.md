@@ -10,3 +10,6 @@
 - Response time
 - Response code
 - Response IP Adress
+- geographical location
+- query time
+- TTL
