@@ -172,8 +172,8 @@ while True:
     else:
         # Check if TTL expired
         lifetime = time.time() - cache[requested_website]["Time"]
-        #print("Current lifetime: ", lifetime)
-        #print("TTL in cache: ", cache[requested_website]["TTL"])
+        print("Current lifetime: ", lifetime)
+        print("TTL in cache: ", cache[requested_website]["TTL"])
         # Not expired
         if (lifetime < cache[requested_website]["TTL"]):
             #print("It's here!")

@@ -13,4 +13,4 @@ test_dns_queryNYT = "AA0001000001000000000000076E7974696D657303636F6D0000010001"
 test_dns_queryCNN = "AA000100000100000000000003636E6E03636F6D0000010001"
 
 # Change this last part here to whichever
-client_socket.sendto(test_dns_queryNYT.encode(), server_addr)
+client_socket.sendto(test_dns_queryCNN.encode(), server_addr)
