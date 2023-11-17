@@ -10,6 +10,6 @@
 - Response time
 - Response code
 - Response IP Adress
-- geographical location
-- query time
-- TTL
+- geographical location (tuple of lat,lon floats)
+- query time datetime time object
+- TTL (seconds int )
