@@ -166,12 +166,15 @@ while True:
         
         # Create entry
         cache[requested_website] = {"IP": ip_addr, "TTL": ttl, "Time": time_received}
+        print("")
         print("Created new entry in cache for " + requested_website + " with IP address: " + cache[requested_website]["IP"])
         response(transactionID, queryAnalyzed, ip_addr)
 
     else:
         # Check if TTL expired
         lifetime = time.time() - cache[requested_website]["Time"]
+        print("")
+        print("Website: ", requested_website)
         print("Current lifetime: ", lifetime)
         print("TTL in cache: ", cache[requested_website]["TTL"])
         # Not expired
