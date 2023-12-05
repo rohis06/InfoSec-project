@@ -16,8 +16,9 @@ In essence, our project aims to pioneer a novel approach to DNS security, marryi
 
 ## Methodology
 
-![DNS system](DNS system.png)
-![ML system](ML system.png)
+![DNS system](DNS_system.png)
+
+![ML system](ML_system.png)
 
 ## Results
 
