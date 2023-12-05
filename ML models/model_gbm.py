@@ -1,3 +1,5 @@
+# This python file implements the Gradient Boosting Classifier model
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt

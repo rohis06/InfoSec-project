@@ -1,3 +1,5 @@
+# This python file implements the XGBoost Classifier
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
